@@ -75,7 +75,7 @@
 	}
 
 nav {
-	height: 60px;
+	height: 40px;
 	width: 100%;
 	background-color: Ghostwhite;
 	box-shadow: 1px 1px 1px grey;
@@ -87,8 +87,8 @@ nav {
 }
 
 .nav-logo {
-	height: 30px;
-	width: 300px;
+	height: 20px;
+	width: 200px;
 }
 
 .signup-form {

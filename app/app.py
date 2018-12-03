@@ -21,6 +21,8 @@ def user():
 def postUser(data):
     """ Returns success/failure json response from MYSQL insert | Type Dictionary """
 
+    # TODO: call user controller to access DB @ /controllers/user
+
     # Sample response
     response = {
         "status": True,
@@ -38,6 +40,9 @@ def getUser():
     """ Returns all signups from MYSQL | Type Array """
 
     # TODO: Query MYSQL using ORM for all signups
+
+    # TODO: call user controller to access DB @ /controllers/user/
+    # TODO: Some auth validation so endpoint isn't publically exposed
 
     sample_data = [{"Email": "sample@gmail.com", "Phone": "(718) 555 - 5555"}]
     return jsonify(sample_data)
